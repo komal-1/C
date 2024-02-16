@@ -1,0 +1,66 @@
+Variable is the name of a memory location which stores some data.
+
+Memory --> (box/container)a --> 25
+           (box/container)b --> 5
+
+Example Code:
+Hello.c
+
+#include <stdio.h>  // preprocessor directive
+int main() {
+  int number = 25;
+  char star = '*';
+  int age = 22;
+      age = 24; // we can update the value of variable.
+  float pi = 3.14;
+  return 0;
+}
+
+
+Rules for creating variables:
+a. Variables are case sensitive.    // example int a =  30; and int A = 40; both are different.
+b. 1st character is alphabet or '_'.  // int _age = 22; is valid variable name.
+c. no comma / blank space.
+d. No other symbol other than '_'.   // int final_price = 100;
+
+
+Special Tip : Always keep meaningful variable name.
+
+Data Types :
+
+data type                         size in(bytes)
+char or signed char                1
+unsigned char                      1
+int or signed int                  2
+unsigned int                       2
+short int or unsigned short int    2
+signed short int                   2
+long int or signed long int        4
+unsigned long int                  4
+float                              4
+double                             8
+long double                        10
+
+
+Constants :
+Values that don't change(fixed).
+Types :
+1. Integer Constants : 1,2,3,0,-1,-2
+2. Real Constants : 1.0,2.0,3.14,-24
+3. Character Constants : 'a', 'b', 'A', '#', '&'
+
+Keywords : 
+Reserved words that have special meaning to the compiler, there are 32 keywords in C.
+
+Comments :
+Lines that are not part of program
+Single Line  //
+Multiple Line /* 
+              */
+
+
+Output :
+printf("Hello World");
+
+newline
+printf("kuch bhi\n");
