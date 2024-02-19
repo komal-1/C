@@ -1,0 +1,22 @@
+//a.Write a program to calculate perimeter of a rectangle.
+# include<stdio.h>
+int main() { 
+float length, width, perimeter;
+printf("Enter length of a rectangle\n");
+scanf("%f",&length);
+printf("Enter width of rectangle\n");
+scanf("%f",&width);
+perimeter = 2*(length + width);
+printf("Perimeter of rectangle is %f\n",perimeter);
+return 0;
+}
+
+// b. Take a number(n) from user & output its cube(n*n*n).
+#include<stdio.h>
+int main() {
+    float n;
+    printf("enter n");
+    scanf("%f", &n);
+    float cube = n*n*n;
+    printf("cube is %f\n",cube);
+}
