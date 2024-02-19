@@ -1,0 +1,87 @@
+Instructions : These are statements in a Program.
+Types: 1. Type Declaration Instructions : Declare var before using it.
+          VALID
+          int a = 22;
+          int b = a;
+          int c = b+1;
+          int d = 1, e;
+          int a,b,c;
+          a=b=c=1;
+
+2. Arithmetic Instructions : a(operand) +(operator) + b(operand)
+   Note : single varibale on the LHS.
+   Valid 
+   a = b+c
+   a = b*c
+   a = b/c
+
+Invalid
+b+c = a
+a = bc
+a = b^c
+
+Note = pow(x,y) for x to the power y
+
+#include<stdio.h>
+#include<math.h>
+int main() {
+    int b,c;
+    b = c =2;
+    int a =b+c;
+    int power = pow(b,c);
+    printf("%d",power);
+    return 0;
+
+}
+
+Modular Operator % :
+
+Returns remainder for int
+3%2 = 1
+-3%2 = -1
+
+#include<stdio.h>
+#include<math.h>
+int main() {
+    printf("%d",16 % 10);
+    return 0;
+}
+
+Note : Modulo operator doesn't work on float values, It only works on integers values.
+
+Type Conversion:
+
+int op int --> int
+int op float --> float
+float op float --> float
+
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a =(int) 1.999999;
+    printf("%d \n", a);
+    return 0;
+}
+
+Operator Precedence:
+
+*, /,%
++,-
+=
+
+x = 4+9*10 => 4+90 =94
+x = 4*3/6*2 => 12/6*2 => 2*2 => 4
+
+#include<stdio.h>
+#include<math.h>
+
+int main() {
+    int a = 4 + 9 * 10;
+    printf("%d\n",a);
+    return 0;
+}
+
+
+      
+3. Control Instructions
+
