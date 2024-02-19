@@ -64,3 +64,26 @@ printf("Hello World");
 
 newline
 printf("kuch bhi\n");
+
+
+Output
+CASES :
+1.integers:
+printf("age is %d",age);
+
+2.real numbers:
+printf("value of pi is %f",pi);
+
+3.charcters
+printf("star looks like this %c",star);
+
+Input:
+scanf("%d",&age);  // & is address of the variable
+
+
+Compilation:
+A computer program that translates C code into machine code.
+Hello.c --> c compiler --> a.exe(windows)
+                            a.out(linux & mac)  
+
+
