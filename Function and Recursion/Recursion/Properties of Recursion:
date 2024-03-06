@@ -1,0 +1,4 @@
+1.  Anything that can be done with iteration,can be done with recursion and vice-versa.
+2.  Recursion can sometimes give the most simple solution.
+3.  Base Case is the condition which stops recursion.
+4.  Iteration has infinite loop and recursion has stack overflow.
