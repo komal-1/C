@@ -6,5 +6,12 @@ int main(){
     int *ptr = &age;
     int _age = *ptr;
     printf("%d",_age);
+// address
+
+    printf("%p\n",&age);
+    printf("%u\n",&age);
+    printf("%u\n",&ptr);
+     printf("%u\n",ptr);
+
     return 0;
 }
