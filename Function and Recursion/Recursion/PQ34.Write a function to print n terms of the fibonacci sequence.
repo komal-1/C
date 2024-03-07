@@ -2,7 +2,7 @@
 int fib(int n);
 int main(){
     fib(6);
-    printf("%d",fib(6));
+    printf("%d",fib(6)); // nth term of the fibonacci
     return 0;
 }
 int fib(int n){
