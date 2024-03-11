@@ -33,8 +33,8 @@ int main(){
     int *ptr =&age;
     int *_ptr =&_age;
 
-    printf("difference = %u\n", ptr - _ptr); // 1 means true
+    printf("%u,%u\ndifference = %u\n", ptr, _ptr, ptr - _ptr);
     _ptr = &age;
-    printf("comparison = %u\n",ptr == _ptr); // 1 means true
+    printf("comparison = %u\n",ptr == _ptr);
     return 0;
 }
