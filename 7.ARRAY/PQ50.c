@@ -7,7 +7,7 @@ int main(){
     char ch;
     int i = 0;
     while(ch != '\n'){
-        scanf("%c",ch);
+        scanf("%c",&ch);
         str[i] = ch;
         i++;
     }
